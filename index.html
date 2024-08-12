@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Instagram</title>
+    <link rel="icon" href="./media//Images/insta.png.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="nav-conatiner">
+        <h2 class="logo"><img src="./media/Images/insta.png.png" alt=""></h2>
+        <div class="search-bar">
+          <i class="bx bx-search-alt-2"></i>
+          <input type="text" placeholder="Search" />
+        </div>
+        <div class="create">
+          <label class="btn btn-primary" for="create-post">Create</label>
+          <div class="profile-picture">
+            <img src="./media/Images/wom1.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!------------------------------------------------------------ M-A-I-N ------------------------------------------------------>
+
+    <main>
+      <div class="container">
+        <!------------------------------------------------------------ L-E-F-T ------------------------------------------------------>
+        <div class="left">
+          <a class="profile">
+            <div class="profile-picture">
+              <img src="./media/Images/wom1.jpg" alt="" />
+            </div>
+            <div class="h  andle">
+              <h4>Diana Ayi</h4>
+              <div class="text-muted">@dayi</div>
+            </div>
+          </a>
+          <!------------------------------------------------------------ SIDE-BAR ------------------------------------------------------>
+
+          <div class="sidebar">
+            <a class="menu-item active">
+              <span><i class="bx bx-home"></i></span>
+              <h3>Home</h3>
+            </a>
+            <a class="menu-item">
+              <span><i class="bx bx-compass"></i></span>
+              <h3>Explore</h3>
+            </a>
+            <a class="menu-item" id="notification">
+              <span
+                ><i class="bx bx-bell"
+                  ><small class="notification-count">9+</small></i
+                ></span
+              >
+              <h3>Notifications</h3>
+
+              <!--------------------------------------- NOTIFICATION-POPUP ---------------------------------------------------->
+              <div class="notification-popup">
+                <div class="div1">
+                  <div class="profile-picture">
+                    <img src="./media/Images/wom4.jpg" />
+                  </div>
+                  <div class="notification-body">
+                    <b>keke benjamin</b> accepted your friend request
+                    <small class="text-muted">2 hours ago</small>
+                  </div>
+                </div>
+                <div class="div1">
+                  <div class="profile-picture">
+                    <img src="./media/Images/wom3.jpg" />
+                  </div>
+                  <div class="notification-body">
+                    <b>anjali thakur</b> liked your post
+                    <small class="text-muted">5 hours ago</small>
+                  </div>
+                </div>
+                <div class="div1">
+                  <div class="profile-picture">
+                    <img src="./media/Images/wom1.jpg" />
+                  </div>
+                  <div class="notification-body">
+                    <b>sonam sharma</b> comment your post
+                    <small class="text-muted">1 days ago</small>
+                  </div>
+                </div>
+                <div class="div1">
+                  <div class="profile-picture">
+                    <img src="./media/Images/wom4.jpg" />
+                  </div>
+                  <div class="notification-body">
+                    <b>riya rajput</b> accepted your friend request
+                    <small class="text-muted">2 days ago</small>
+                  </div>
+                </div>
+                <div class="div1">
+                  <div class="profile-picture">
+                    <img src="./media/Images/wom2.jpg" />
+                  </div>
+                  <div class="notification-body">
+                    <b>priyanka patel </b> started to following you
+                    <small class="text-muted">2 days ago</small>
+                  </div>
+                </div>
+                <div class="div1">
+                  <div class="profile-picture">
+                    <img src="./media/Images/wom1.jpg" />
+                  </div>
+                  <div class="notification-body">
+                    <b>Preeti Rajput</b> liked your post
+                    <small class="text-muted">3 days ago</small>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a class="menu-item messages-notification">
+              <span
+                ><i class="bx bx-envelope"  id="messages-notification"
+                  ><small class="notification-count-message">9+ </small></i
+                ></span
+              >
+              <h3>Message</h3>
+            </a>
+            <a class="menu-item">
+              <span><i class="bx bx-bookmark"></i></span>
+              <h3>Bookmarks</h3>
+            </a>
+            <a class="menu-item">
+              <span><i class="bx bx-line-chart-down"></i></span>
+              <h3>Analytics</h3>
+            </a>
+            <a class="menu-item" id="Theme">
+              <span><i class="bx bx-palette"></i></span>
+              <h3>Theme</h3>
+            </a>
+            <a class="menu-item active">
+              <span><i class="bx bx-cog"></i></span>
+              <h3>Seting</h3>
+            </a>
+          </div>
+          <!----------------------------------------- END-OF-SIDEBAR ---------------------------------------------------------->
+          <label for="create-post" class="btn btn-primary">Create Post</label>
+        </div>
+        <!--!================================================m-i-d-d-l-e= =================================================-->
+        <div class="middle">
+          <!-------------------------------- STORIES------------------------------------ -->
+          <div class="stories">
+            <div class="story">
+              <div class="profile-picture">
+                <img src="./media/Images/men5.jpg" alt="" />
+              </div>
+              <p class="name">Your Story</p>
+            </div>
+            <div class="story">
+              <div class="profile-picture">
+                <img src="./media/Images/krati1.jpg" alt="" />
+              </div>
+              <p class="name">Nikhil Rajput</p>
+            </div>
+            <div class="story">
+              <div class="profile-picture">
+                <img src="./media/Images/wom4.jpg" alt="" />
+              </div>
+              <p class="name">Preeti rajput</p>
+            </div>
+            <div class="story">
+              <div class="profile-picture">
+                <img src="./media/Images/men5.jpg" alt="" />
+              </div>
+              <p class="name">Rahul Sharma</p>
+            </div>
+            <div class="story">
+              <div class="profile-picture">
+                <img src="./media/Images/wom2.jpg" alt="" />
+              </div>
+              <p class="name">Anjali</p>
+            </div>
+            <div class="story">
+              <div class="profile-picture">
+                <img src="./media/Images/krati.jpg" alt="" />
+              </div>
+              <p class="name">Jitendra</p>
+            </div>
+          </div>
+          <!-------------------------------- END OF STORIES------------------------------------ -->
+          <form class="create-post">
+            <div class="profile-picture">
+              <img src="./media/Images/wom1.jpg" />
+            </div>
+            <input type="text" placeholder="What's on your mind ?" />
+            <input type="submit" value="post" class="btn btn-primary" />
+          </form>
+          <!--================================================= FEEDS ==============================================-->
+          <div class="feeds">
+            <div class="feed">
+              <div class="head">
+                <div class="user">
+                  <div class="profile-picture">
+                    <img src="./media/Images/krati.jpg" />
+                  </div>
+                  <div class="info">
+                    <h3>Krati saini</h3>
+                    <small>Indore 15 Minutes Ago</small>
+                  </div>
+                  <span class="edit">
+                    <i class="bx bx-dots-horizontal-rounded"></i>
+                  </span>
+                </div>
+              </div>
+              <div class="photo">
+                <img src="./media/Images/wom4.jpg" />
+              </div>
+              <div class="action-button">
+                <div class="interaction-buttons">
+                  <span><i class="bx bx-heart"></i></span>
+                  <span><i class="bx bx-comment"></i></span>
+                  <span><i class="bx bx-share"></i></span>
+                </div>
+                <div class="bookmarks">
+                  <span><i class="bx bx-bookmarks"></i></span>
+                </div>
+              </div>
+              <div class="liked-by">
+                <span><img src="./media/Images/men3.jpg" /></span>
+                <span><img src="./media/Images/men6.jpg" /></span>
+                <span><img src="./media/Images/men5.jpg" /></span>
+                <p>liked by <b>aayushi verma</b>   and <b>233 others</b></p>
+              </div>
+              <div class="caption">
+                <p>
+                  <b>Krati Saini</b>  Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. Rem, quos
+                  <span class="hash-tag">#lifestyle</span>
+                </p>
+              </div>
+              <div class="comments text-muted">View all 220 comments</div>
+            </div>
+            <div class="feed">
+              <div class="head">
+                <div class="user">
+                  <div class="profile-picture">
+                    <img src="./media/Images/men1.jpg" />
+                  </div>
+                  <div class="info">
+                    <h3>Sumit Sharma</h3>
+                    <small>Indore 40 Minutes Ago</small>
+                  </div>
+                  <span class="edit">
+                    <i class="bx bx-dots-horizontal-rounded"></i>
+                  </span>
+                </div>
+              </div>
+              <div class="photo">
+                <img src="./media/Images/men6.jpg" />
+              </div>
+              <div class="action-button">
+                <div class="interaction-buttons">
+                  <span><i class="bx bx-heart"></i></span>
+                  <span><i class="bx bx-comment"></i></span>
+                  <span><i class="bx bx-share"></i></span>
+                </div>
+                <div class="bookmarks">
+                  <span><i class="bx bx-bookmarks"></i></span>
+                </div>
+              </div>
+              <div class="liked-by">
+                <span><img src="./media/Images/story2.jpg" /></span>
+                <span><img src="./media/Images/men6.jpg" /></span>
+                <span><img src="./media/Images/men3.jpg" /></span>
+                <p>liked by <b>aayushi thakur</b> and <b>233 others</b></p>
+              </div>
+              <div class="caption">
+                <p>
+                  <b>sumit sharma</b>  Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. Rem, quos
+                  <span class="hash-tag">#lifestyle</span>
+                </p>
+              </div>
+              <div class="comments text-muted">View all 220 comments</div>
+            </div>
+            <div class="feed">
+              <div class="head">
+                <div class="user">
+                  <div class="profile-picture">
+                    <img src="./media/Images/story6.jpg" />
+                  </div>
+                  <div class="info">
+                    <h3>Preeti Rajput</h3>
+                    <small>Harda 15 Minutes Ago</small>
+                  </div>
+                  <span class="edit">
+                    <i class="bx bx-dots-horizontal-rounded"></i>
+                  </span>
+                </div>
+              </div>
+              <div class="photo">
+                <img src="./media/Images/women2.jpg" />
+              </div>
+              <div class="action-button">
+                <div class="interaction-buttons">
+                  <span><i class="bx bx-heart"></i></span>
+                  <span><i class="bx bx-comment"></i></span>
+                  <span><i class="bx bx-share"></i></span>
+                </div>
+                <div class="bookmarks">
+                  <span><i class="bx bx-bookmarks"></i></span>
+                </div>
+              </div>
+              <div class="liked-by">
+                <span><img src="./media/Images/men3.jpg" /></span>
+                <span><img src="./media/Images/men6.jpg" /></span>
+                <span><img src="./media/Images/men5.jpg" /></span>
+                <p>liked by <b>sumit_rajpoot_07</b>  and <b>253 others</b></p>
+              </div>
+              <div class="caption">
+                <p>
+                  <b>Preeti rajput</b>  Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. Rem, quos
+                  <span class="hash-tag">#popular</span>
+                </p>
+              </div>
+              <div class="comments text-muted">View all 139 comments</div>
+            </div>
+            <div class="feed">
+              <div class="head">
+                <div class="user">
+                  <div class="profile-picture">
+                    <img src="./media/Images/men2.jpg" />
+                  </div>
+                  <div class="info">
+                    <h3>Nikhil rajput</h3>
+                    <small>Indore 15 Minutes Ago</small>
+                  </div>
+                  <span class="edit">
+                    <i class="bx bx-dots-horizontal-rounded"></i>
+                  </span>
+                </div>
+              </div>
+              <div class="photo">
+                <img src="./media/Images/men2.jpg" />
+              </div>
+              <div class="action-button">
+                <div class="interaction-buttons">
+                  <span><i class="bx bx-heart"></i></span>
+                  <span><i class="bx bx-comment"></i></span>
+                  <span><i class="bx bx-share"></i></span>
+                </div>
+                <div class="bookmarks">
+                  <span><i class="bx bx-bookmarks"></i></span>
+                </div>
+              </div>
+              <div class="liked-by">
+                <span><img src="./media/Images/women2.jpg" /></span>
+                <span><img src="./media/Images/men6.jpg" /></span>
+                <span><img src="./media/Images/men1.jpg" /></span>
+                <p>liked by <b>kundan_56</b>  and <b>333 others</b></p>
+              </div>
+              <div class="caption">
+                <p>
+                  <b>Nikhil Rajput</b>  Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. Rem, quos
+                  <span class="hash-tag">#explorepage</span>
+                </p>
+              </div>
+              <div class="comments text-muted">View all 150 comments</div>
+            </div>
+            <div class="feed">
+              <div class="head">
+                <div class="user">
+                  <div class="profile-picture">
+                    <img src="./media/Images/story5.jpg" />
+                  </div>
+                  <div class="info">
+                    <h3>Nature.com</h3>
+                    <small>Utrakh  and 30 Minutes Ago</small>
+                  </div>
+                  <span class="edit">
+                    <i class="bx bx-dots-horizontal-rounded"></i>
+                  </span>
+                </div>
+              </div>
+              <div class="photo">
+                <img src="./media/Images/nature1.jpg" />
+              </div>
+              <div class="action-button">
+                <div class="interaction-buttons">
+                  <span><i class="bx bx-heart"></i></span>
+                  <span><i class="bx bx-comment"></i></span>
+                  <span><i class="bx bx-share"></i></span>
+                </div>
+                <div class="bookmarks">
+                  <span><i class="bx bx-bookmarks"></i></span>
+                </div>
+              </div>
+              <div class="liked-by">
+                <span><img src="./media/Images/men3.jpg" /></span>
+                <span><img src="./media/Images/men6.jpg" /></span>
+                <span><img src="./media/Images/men5.jpg" /></span>
+                <p>liked by <b>mitali</b>  and <b>320 others</b></p>
+              </div>
+              <div class="caption">
+                <p>
+                  <b>Natures</b>  Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. Rem, quos
+                  <span class="hash-tag">#Nature</span>
+                </p>
+              </div>
+              <div class="comments text-muted">View all 120 comments</div>
+            </div>
+            <div class="feed">
+              <div class="head">
+                <div class="user">
+                  <div class="profile-picture">
+                    <img src="./media/Images/men6.jpg" />
+                  </div>
+                  <div class="info">
+                    <h3>Mridul Thakur</h3>
+                    <small>Indore 20 Minutes Ago</small>
+                  </div>
+                  <span class="edit">
+                    <i class="bx bx-dots-horizontal-rounded"></i>
+                  </span>
+                </div>
+              </div>
+              <div class="photo">
+                <img src="./media/Images/men1.jpg" />
+              </div>
+              <div class="action-button">
+                <div class="interaction-buttons">
+                  <span><i class="bx bx-heart"></i></span>
+                  <span><i class="bx bx-comment"></i></span>
+                  <span><i class="bx bx-share"></i></span>
+                </div>
+                <div class="bookmarks">
+                  <span><i class="bx bx-bookmarks"></i></span>
+                </div>
+              </div>
+              <div class="liked-by">
+                <span><img src="./media/Images/men3.jpg" /></span>
+                <span><img src="./media/Images/men6.jpg" /></span>
+                <span><img src="./media/Images/men5.jpg" /></span>
+                <p>liked by <b>vinay_07</b>  and <b>188 others</b></p>
+              </div>
+              <div class="caption">
+                <p>
+                  <b>mridul thakur</b>  Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. Rem, quos
+                  <span class="hash-tag">#photootheady</span>
+                </p>
+              </div>
+              <div class="comments text-muted">View all 188 comments</div>
+            </div>
+            <div class="feed">
+              <div class="head">
+                <div class="user">
+                  <div class="profile-picture">
+                    <img src="./media/Images/men5.jpg" />
+                  </div>
+                  <div class="info">
+                    <h3>Sania</h3>
+                    <small>Bhopal 10 Minutes Ago</small>
+                  </div>
+                  <span class="edit">
+                    <i class="bx bx-dots-horizontal-rounded"></i>
+                  </span>
+                </div>
+              </div>
+              <div class="photo">
+                <img src="./media/Images/women1.jpg" />
+              </div>
+              <div class="action-button">
+                <div class="interaction-buttons">
+                  <span><i class="bx bx-heart"></i></span>
+                  <span><i class="bx bx-comment"></i></span>
+                  <span><i class="bx bx-share"></i></span>
+                </div>
+                <div class="bookmarks">
+                  <span><i class="bx bx-bookmarks"></i></span>
+                </div>
+              </div>
+              <div class="liked-by">
+                <span><img src="./media/Images/wom2.jpg" /></span>
+                <span><img src="./media/Images/men6.jpg" /></span>
+                <span><img src="./media/Images/men5.jpg" /></span>
+                <p>liked by <b>suman joshi</b>  and <b>233 others</b></p>
+              </div>
+              <div class="caption">
+                <p>
+                  <b>Sania</b>  Lorem ipsum dolor sit amet consectetur
+                  adipisicing elit. Rem, quos
+                  <span class="hash-tag">#trending</span>
+                </p>
+              </div>
+              <div class="comments text-muted">View all 220 comments</div>
+            </div>
+            <!----------------------------------------------------- END OF FEED --------------------------------------------------------------->
+          </div>
+        </div>
+<!--!=========================================================== END OF FEED =================================================================-->
+
+        <!--!---------------------------------------------------------- R-I-G-H-T ------------------------------------------------------>
+        <div class="right">
+          <div class="messages">
+            <div class="heading">
+              <h4>Messages</h4>
+              <i class='bx bx-edit'></i>
+            </div>
+            <!-- ----------------------------SEARCH BAR------------------------------------ -->
+            <div class="search-bar">
+              <i class='bx bx-search'></i>
+              <input type="search" placeholder="Search Messages" id="message-search">
+            </div>
+            <!-- ---------------------MESSAGES CATEGORY ----------------->
+            <div class="category">
+              <h6 class="active">Primary</h6>
+              <h6 class="active">Genral</h6>
+              <h6 class="active">Request</h6>
+            </div>
+
+            <!------------------------------ MESSAGES---------------------------- -->
+            
+            <div class="message">
+              <div class="profile-picture">
+                <img src="./media/Images/aayushi1.jpg" >
+              </div>
+              <div class="message-body">
+                <h5>Vaishali_07</h5>
+                <p class="text-bold">What are you doing</p>
+              </div>
+            </div>
+          
+            <div class="message">
+              <div class="profile-picture">
+                <img src="./media/Images/Mesage_Images/mes1.jpg" >
+              </div>
+              <div class="message-body">
+                <h5>Shubham Singh rajput</h5>
+                <p class="text-bold">Come Home quickley</p>
+              </div>
+            </div>
+          
+            <div class="message">
+              <div class="profile-picture">
+                <img src="./media/Images/Mesage_Images/mes3.jpg" >
+              </div>
+              <div class="message-body">
+                <h5>Madhu Gour</h5>
+                <p class="text-bold">How was your day today</p>
+              </div>
+            </div>
+          
+            <div class="message">
+              <div class="profile-picture">
+                <img src="./media/Images/Mesage_Images/mes2.jpg" >
+                <div class="active"></div>
+              </div>
+              <div class="message-body">
+                <h5>Ayush_123</h5>
+                <p class="text-bold">just go to the market</p>
+              </div>
+            </div>
+          
+            <div class="message">
+              <div class="profile-picture">
+                <img src="./media/Images/Mesage_Images/mes4.jpg" >
+              </div>
+              <div class="message-body">
+                <h5>Preeti_06001</h5>
+                <p class="text-bold">Good Morning</p>
+              </div>
+            </div>
+          
+            <div class="message">
+              <div class="profile-picture">
+                <img src="./media/Images/Mesage_Images/mes6.jpg" >
+                <div class="active"></div>
+              </div>
+              <div class="message-body">
+                <h5>Sushant Thakur</h5>
+                <p class="text-bold">how are you bro</p>
+              </div>
+            </div>
+          
+            <div class="message">
+              <div class="profile-picture">
+                <img src="./media/Images/Mesage_Images/mes5.jpg" >
+              </div>
+              <div class="message-body">
+                <h5>Pragati_07</h5>
+                <p class="text-bold">Hyy brother </p>
+              </div>
+            </div>
+          </div>
+            <!------------------------------ END OF MESSAGES---------------------------- -->
+
+
+            <!---------------------------------- FRIEND REQUEST ------------------------------------>
+
+            <div class="friend-request">
+              <h4>Requests</h4>
+
+              
+              <div class="request">
+                <div class="info">
+                  <div class="profile-picture">
+                    <img src="./media/Images/men2.jpg" alt="">
+                  </div>
+                
+                <div>
+                  <h5>Ajay thakur</h5>
+                <p class="text-muted">5 mutual friends</p>
+                </div>
+              </div>
+                <div class="action">
+                  <button class="btn btn-primary">Accept</button>
+                  <button class="btn btn-danger">Delete</button>
+                </div>
+              </div>
+
+              <div class="request">
+                <div class="info">
+                  <div class="profile-picture">
+                    <img src="./media/Images/men2.jpg" alt="">
+                  </div>
+                
+                <div>
+                  <h5>Ajay thakur</h5>
+                <p class="text-muted">5 mutual friends</p>
+                </div>
+              </div>
+                <div class="action">
+                  <button class="btn btn-primary">Accept</button>
+                  <button class="btn btn-danger">Delete</button>
+                </div>
+              </div>
+
+              <div class="request">
+                <div class="info">
+                  <div class="profile-picture">
+                    <img src="./media/Images/men2.jpg" alt="">
+                  </div>
+                
+                <div>
+                  <h5>Ajay thakur</h5>
+                <p class="text-muted">5 mutual friends</p>
+                </div>
+              </div>
+                <div class="action">
+                  <button class="btn btn-primary">Accept</button>
+                  <button class="btn btn-danger">Delete</button>
+                </div>
+              </div>
+
+              <div class="request">
+                <div class="info">
+                  <div class="profile-picture">
+                    <img src="./media/Images/men2.jpg" alt="">
+                  </div>
+                
+                <div>
+                  <h5>Ajay thakur</h5>
+                <p class="text-muted">5 mutual friends</p>
+                </div>
+              </div>
+                <div class="action">
+                  <button class="btn btn-primary">Accept</button>
+                  <button class="btn btn-danger">Delete</button>
+                </div>
+              </div>
+            </div>
+          
+        </div>
+        <!--! ====================================================END OF RIGHT============================================== -->
+      </div>
+    </main>
+
+    <!--!--=================================================== THEME CUSTIMIZATION ===================================================--->
+
+    <div class="customize-theme active">
+      <div class="card">
+        <h2>Customize your view</h2>
+        <p class="text-muted">Manage your font size , color and background</p>
+        <!--------------------------- FONT SIZE -------------------- -->
+        <div class="font-size">
+          <h4>Font Size</h4>
+          <div>
+            <h6>Aa</h6>
+            <div class="choose-size">
+              <span class="font-size-1"></span>
+              <span class="font-size-2 active"></span>
+              <span class="font-size-3 "></span>
+              <span class="font-size-4"></span>
+              <span class="font-size-5"></span>
+            </div>
+            <h3>Aa</h3>
+          </div>
+         </div>
+         <!--------------------------- PRIMARY COLORS -------------------- -->
+         <div class="color">
+          <h4>Color</h4>
+          <div class="choose-color">
+            <span class="color-1 active"></span>
+            <span class="color-2"></span>
+            <span class="color-3"></span>
+            <span class="color-4"></span>
+            <span class="color-5"></span>
+          </div>
+         </div>
+         <!--------------------------- BACKGROUND COLORS -------------------- -->
+         <div class="background">
+          <h4>Background</h4>
+          <div class="choose-bg">
+            <div class="bg-1 active">
+              <span></span>
+              <h5 for="bg-1">Light</h5>
+            </div>
+            <div class="bg-2">
+              <span></span>
+              <h5 for="bg-2">Dark</h5>
+            </div>
+            <div class="bg-3">
+              <span></span>
+              <h5 for="bg-3">Light Out</h5>
+  
+            
+          </div>
+         </div>
+      </div>
+    </div>
+  </body>
+  <script src="./index.js"></script>
+</html>
